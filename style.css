@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --cream-white : #F4F3F8;
+}
+
+body{
+    background-color: var(--cream-white);
+}
+
+
+nav{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+
+}
+#navFirst{
+    flex:1;
+    
+    margin-left: 45px;
+}
+
+#navMid{
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    
+    font-size: 30px;
+}
+
+#navEnd{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    
+}
+
+
+#imgMain{    
+    position: absolute;   
+    right: 0;
+    bottom: 0;
+    height: 30rem;
+    
+    
+}
+
+#midWholePart1{    
+   
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+#midWholePart11 {    
+    margin-top: 80px;
+    margin-left: 45px;
+    width: 600px;
+    
+}
+
+#monstera{
+    font-size: 60px;
+}
+
+#midWholePart11 li{    
+    font-size: 20px;
+}
+
+#midWholePart12{
+
+    width: 600px;
+    margin-top: 45px;
+    margin-left: 45px;
+    
+    
+}
+
+#midWholePart121 {
+    display: flex;
+    justify-content: center;
+}
+#midWholePart121 div h1{
+    display: block;
+    background-color: #466D4F;        
+    border-radius: 15px;
+    padding: 20px 60px;
+    color: white;
+    
+}
+
+#midWholePart13{
+    
+    margin-top: 25px;
+    margin-left: 45px;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+
+}
+
+.midWholePart13Parts {    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+
+}
+
+.text{
+    font-size: 12px;
+}
+
+#feeding{
+    height: 60px;
+    margin-right: 16px;    
+}
+
+#light {
+    height: 60px;
+    margin-right: 16px;
+}
+
+#care {
+    height: 60px;
+    margin-right: 16px;
+}
